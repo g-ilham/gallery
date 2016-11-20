@@ -31,6 +31,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'coffeelint'
   gem 'dotenv-rails'
+  gem 'listen', '~> 3.0.5'
   gem 'pry-rails'
   gem 'rspec-rails', '~> 3.4'
   gem 'rubocop', require: false
@@ -45,7 +46,6 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'web-console', '~> 2.0'
-  gem 'listen', '~> 3.0.5'
   gem 'spring-commands-rubocop'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
