@@ -31,11 +31,14 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'coffeelint'
   gem 'dotenv-rails'
+  gem 'factory_girl_rails'
+  gem 'faker'
   gem 'listen', '~> 3.0.5'
   gem 'pry-rails'
   gem 'rspec-rails', '~> 3.4'
   gem 'rubocop', require: false
   gem 'rubocop-rspec', require: false
+  gem 'seedbank'
   gem 'slim_lint', require: false
 end
 
