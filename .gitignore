@@ -15,5 +15,9 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore environment files
 .env
+
+# Ignore database connection info
 config/database.yml
