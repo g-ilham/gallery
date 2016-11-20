@@ -1,4 +1,5 @@
 Rails.application.config.app_generators do |g|
+  g.javascripts false
   g.stylesheets false
   g.helper false
   g.integration_tool false
